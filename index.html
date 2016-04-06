@@ -9,7 +9,7 @@
     <title></title>
   </head>
     <body>
-      <div class = "container">
+      <div class = "container" id = "cont1">
 
         <!-- player one -->
         <form class = "playerinputOne">
@@ -19,8 +19,9 @@
 
               <br>
               <br>
-
+              <div id="btn1">
               <button type="submit" class="btn btn-success" id="roll1">Roll</button>
+              </div>
               <br>
               <br>
               <button type="submit" class="btn btn-danger" id="hold1">Hold</button>
@@ -30,33 +31,39 @@
               </div>
             </div>
         </form>
+      </div>
+    </div>
+
+      <div class = "container" id = "cont2">
 
         <!-- player two -->
           <form class = "playerinputTwo">
-            <div class = "col-sm-6">
-              <h1>Player 2</h1>
+            <div class = "row">
+              <div class = "col-sm-6">
+                <h1>Player 2</h1>
 
-              <br>
-              <br>
+                <br>
+                <br>
 
-              <button type="button" class="btn btn-success" id="roll2">Roll</button>
-              <br>
-              <br>
-              <button type="button" class="btn btn-danger" id="hold2">Hold</button>
-              <div id = "turn2">
-                <h3>Turn-Total:</h3>
-                <p id = "turntotal2"></p>
+                <button type="button" class="btn btn-success" id="roll2">Roll</button>
+                <br>
+                <br>
+                <button type="button" class="btn btn-danger" id="hold2">Hold</button>
+                <div id = "turn2">
+                  <h3>Turn-Total:</h3>
+                  <p id = "turntotal2"></p>
+                </div>
               </div>
             </div>
           </form>
 
         </div>
-      </div>
+
 
     <!-- Grand Total -->
-      <div class = "container">
-        <h1>Grand Total</h1>
+      <div class = "container" id= "cont3">
         <div class = "row">
+          <h1 class="grnd">Grand Total</h1>
           <div class = "col-sm-6">
             <h3>Player 1 Total</h3>
             <ul id="playeroneOutput">
@@ -65,7 +72,7 @@
           </div>
 
           <div class = "col-sm-6">
-            <h3>Player 1 Total</h3>
+            <h3>Player 2 Total</h3>
             <ul id="playertwoOutput">
 
             </ul>
