@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+    <body>
+      <h1 class = "jumbotron">Pig Dice</h1>
+      <div class = "container" id = "cont1" align = "center">
+
+        <!-- player one -->
+
+          <div class = "row">
+            <div class = "col-sm-3 col-sm-offset-1">
+              <h1>Player 1</h1>
+            <form class = "buttonroll1">
+              <br>
+              <br>
+              <div id="btn1">
+              <button type="submit" class="btn btn-success" id="roll1">Roll</button>
+              </div>
+            </form>
+
+              <br>
+              <br>
+
+            <form class = "buttonhold1">
+              <div id="btn2">
+                <button type="submit" class="btn btn-danger" id="hold1">Hold</button>
+              </div>
+            </form>
+
+              <div id = "turn1">
+                <h3>Turn-Total:</h3>
+                <p id = "turntotal1"></p>
+              </div>
+            </div>
+
+
+
+
+        <!-- player two -->
+          <div class = "col-sm-3 col-sm-offset-4 player2" id="rep">
+            <h1><span id = "replace">Computer</span></h1>
+          <form class = "buttonroll2">
+            <br>
+            <br>
+            <div id="btn3">
+            <button type="submit" class="btn btn-success disabled" id="roll2">Roll</button>
+            </div>
+          </form>
+
+            <br>
+            <br>
+
+          <form class = "buttonhold2">
+            <div id="btn4">
+              <button type="submit" class="btn btn-danger disabled" id="hold2">Hold</button>
+            </div>
+          </form>
+
+            <div id = "turn2">
+              <h3>Turn-Total:</h3>
+              <p id = "turntotal2"></p>
+            </div>
+          </div>
+        </div>
+
+    <!-- Grand Total -->
+      <div class = "container" id= "cont3">
+        <div class = "row">
+          <h1 class="grnd">Grand Total</h1>
+          <div class = "col-sm-6">
+            <div id = "output1">
+              <h3>Player 1 Total:</h3>
+              <p id = "outputtotal1"></p>
+            </div>
+          </div>
+
+          <div class = "col-sm-6">
+            <div id = "output2">
+              <h3>Player 2 Total:</h3>
+              <p id = "outputtotal2"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+      <form class="computerButton">
+          <button type="submit" class="btn btn-success btn-block">Play another Player</button>
+      </form>
+    <script src="js/scripts.js"></script>
+
+    </body>
+</html>
