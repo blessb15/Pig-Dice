@@ -27,8 +27,9 @@ body {
 }
 
 
-.compbtn {
-  text-align: center;
+.computerButton {
+  text-decoration: none;
+  
 }
 
 .btn {

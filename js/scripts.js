@@ -106,7 +106,9 @@ $(".buttonhold2").submit(function(event){
 //computer player
 $(".computerButton").submit(function(event){
   event.preventDefault();
-  var Computer = $("#replace").text("Computer").input();
+  function visitPage(){
+        window.location='index2.html';
+    }
   // document.getElementById("roll2").disabled = true;
   // document.getElementById("hold2").disabled = true;
   console.log(Computer)
