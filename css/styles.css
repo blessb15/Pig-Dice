@@ -1,18 +1,37 @@
+.col-sm-6{
+  text-align: center;
+}
+
+.jumbotron{
+  text-align: center;
+  font-size: 55px;
+  background: linear-gradient(#4DA53C,#a8d1dd);
+  margin-top: 0;
+}
+
 .grnd {
   text-align: center;
 }
 
 #cont1{
-  float: left;
-  max-width: 50%;
-}
-
-#cont2{
-  float: right;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 #cont3 {
   max-width: 100%;
-  padding-top: 273px;
+}
+
+body {
+  /*background: url("../img/background.jpg") no-repeat center center fixed;*/
+  background-color: #a8d1dd;
+}
+
+
+.compbtn {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  max-width: 50%;
 }

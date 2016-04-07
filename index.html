@@ -9,12 +9,13 @@
     <title></title>
   </head>
     <body>
-      <div class = "container" id = "cont1">
+      <h1 class = "jumbotron">Pig Dice</h1>
+      <div class = "container" id = "cont1" align = "center">
 
         <!-- player one -->
 
           <div class = "row">
-            <div class = "col-sm-6">
+            <div class = "col-sm-3 col-sm-offset-1">
               <h1>Player 1</h1>
             <form class = "buttonroll1">
               <br>
@@ -38,16 +39,13 @@
                 <p id = "turntotal1"></p>
               </div>
             </div>
-          </div>
-        </div>
 
 
-      <div class = "container" id = "cont2">
+
 
         <!-- player two -->
-        <div class = "row">
-          <div class = "col-sm-6">
-            <h1>Player 2</h1>
+          <div class = "col-sm-3 col-sm-offset-4 player2" id="rep">
+            <h1><span id = "replace">Player 2</span></h1>
           <form class = "buttonroll2">
             <br>
             <br>
@@ -71,7 +69,6 @@
             </div>
           </div>
         </div>
-      </div>
 
     <!-- Grand Total -->
       <div class = "container" id= "cont3">
@@ -93,6 +90,10 @@
         </div>
       </div>
 
+
+      <form class="computerButton">
+          <button type="submit" class="btn btn-success btn-block">Play a Computer</button>
+      </form>
     <script src="js/scripts.js"></script>
 
     </body>
